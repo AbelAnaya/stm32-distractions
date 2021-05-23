@@ -137,9 +137,6 @@ int main(void)
   /* Create the mutex(es) */
   /* definition and creation of mutex1 */
 	sem_freno = xSemaphoreCreateMutex();
-	if( sem_freno != NULL ){
-		sem_freno_count++;
-	}
 
   /* Create the thread(s) */
   /* definition and creation of Tarea1 */
